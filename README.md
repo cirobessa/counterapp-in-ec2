@@ -1,7 +1,7 @@
 #counterapp-in-ec2
 
 Aplicação contador de visita em Instancia EC2
- - Para rodar o app é necessário haver uma conta AWS com perfil programatico. E preencher com as credenciais de acesso AWS
+ - Para rodar o app é necessário haver uma conta AWS com perfil programatico. E faz uso de credenciais de acesso AWS para o AWS CLI
  
 
 1)    Script "./configure.sh" Prepara instalação das dependencias:
