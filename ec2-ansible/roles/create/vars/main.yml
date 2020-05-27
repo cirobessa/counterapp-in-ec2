@@ -1,0 +1,8 @@
+---
+# vars DEFINICOES DE INSTANCIAS EC2  PROVISIONA 1 instancia
+instance_type: t2.micro
+security_group: gloob2
+image: ami-085925f297f89fce1
+keypair: desafio-gloob2
+region: us-east-1
+count: 1

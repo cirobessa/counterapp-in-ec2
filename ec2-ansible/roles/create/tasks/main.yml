@@ -1,0 +1,3 @@
+---
+# tasks file for criado-Ansible-galaxy
+- include: provisioning.yml
