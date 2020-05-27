@@ -30,6 +30,9 @@ sudo apt-get install awscli -y
 
 
 #### DEPOIS DE CRIAR AS CREDENCIAIS de Usuário programatico DA AWS 
+echo "===================================
+ Entrar com as chaves de acesso da AWS CLI - Utilizar ZONE us-east-1
+====================================="
 aws configure
 
 #### OU CONFIGURAR AS SEGUINTES VARIAVEIS DE AMBIENTE COM AS CRENDENCIAIS AWS

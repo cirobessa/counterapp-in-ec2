@@ -35,9 +35,14 @@
                curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
                sudo apt update
                sudo apt-get install -y nodejs
+               sudo apt-get install -y build-essential
+               sudo apt-get install -y npm
+               sudo apt-get install -y yarn
                sudo apt-get install -y unzip
                sudo apt-get install -y git
-
+               git clone https://github.com/cirobessa/counterapp-in-ec2.git
+               unzip app-counter.zip
+               /usr/bin/nohup /usr/bin/node app-counter/counter.js &
   register: ec2
 
 - name: Adicionando a instancia ao inventario temp
